@@ -3,7 +3,7 @@ import StudentList from "./components/StudentsList.jsx";
 import AddStudent from "./components/AddStudent.jsx";
 import EditStudent from "./components/EditStudent.jsx";
 import { deleteStudent } from "./api";
-import "./app.css";
+import "./App.css";
 
 const App = () => {
   const [editingStudent, setEditingStudent] = useState(null);
